@@ -1,9 +1,14 @@
 body {
   background: #E1C3C3;
 }
+main{
+  max-width: 940px;
+  width:85%;
+  margin: 4vw auto;
+}
 .grid-container{
   display: grid;
-  grid-template-columns:repeat(3,1fr);
+  grid-template-columns: repeat(3,1fr);
   grid-template-rows: 185px;
   grid-auto-rows: 165px;
   grid-auto-columns: 100px;
@@ -14,6 +19,9 @@ background-color: black;
 .bl{
   grid-column: 2/4;
   background-color: white;
+}
+.bl1{
+  background-color: grey;
 }
 .w1{
   background-color: grey;
@@ -32,6 +40,10 @@ background-color: white;
   object-fit: cover;
   width: 100%;
   max-height: 100%;
+}
+.bl1 > img {
+  width: 30%;
+  max-height: 50%;
 }
 .y1 > img {
   object-fit: cover;
