@@ -1,10 +1,14 @@
 body {
   background: #E1C3C3;
+  position: relative;
 }
 main{
   max-width: 940px;
   width:85%;
   margin: 4vw auto;
+}
+*, *:before, *:after {
+  box-sizing: border-box;
 }
 .grid-container{
   display: grid;
@@ -12,6 +16,7 @@ main{
   grid-template-rows: 185px;
   grid-auto-rows: 165px;
   grid-auto-columns: 100px;
+  grid-auto-flow: dense;
 }
 .r1 {
 background-color: black;
